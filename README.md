@@ -8,7 +8,7 @@ As of the initial release date, it includes:
 - Camera movement
 - Jumping
 
-A toggle in the editor is included that can be switched accordingly if you want input processing or raw movement (for the camera and player movement)
+A toggle in the editor is included that can be switched accordingly if you want input processing/smoothing or raw movement (for the camera and player movement)
 
 Crouching may be added soon.
 
