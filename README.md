@@ -28,4 +28,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ### Terms
-- 
+- Redistribution and modification is permitted as long as you abide by the redistribution terms
+- The author or license cannot be held liable for any damage caused by the software
+- Must include a copy of the license and original copyright notice when redistributing
+- Must state all changes made to the software when distributing
