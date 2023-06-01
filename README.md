@@ -10,7 +10,27 @@ As of the initial release date, it includes:
 
 A toggle in the editor is included that can be switched accordingly if you want input processing/smoothing or raw movement (for both the camera and player movement)
 
+<img width="380" alt="image" src="https://github.com/omrawaley/Unity-First-Person-Controller/assets/133281331/f20b0393-76e8-4c79-92d1-9b7f9a40ba37">
+
+
 Crouching may be added soon.
+
+## To Use:
+Ideally, the player hierarchy should look like this:
+
+<img width="247" alt="image" src="https://github.com/omrawaley/Unity-First-Person-Controller/assets/133281331/a0ff3341-da40-4076-9cdb-23cf4780d170">
+
+`Player` is an empty parent, containing both the Rigidbody, and the controller script. 
+
+`PlayerObj` is simply the visual of the player, e.g. a prefab or a capsule. 
+
+`PlayerCam` is the camera the player utilizes. It should be the only camera enabled in your scene. 
+
+`GroundCheck` is the position where the raycast to check if the player can jump is positioned. It should be at the bottom of your player object, but there should be no gap between it and the object.
+
+<img width="345" alt="image" src="https://github.com/omrawaley/Unity-First-Person-Controller/assets/133281331/917a80b8-b9eb-491a-94d2-1c1995304f47">
+
+
 
 ## License Notice
 Copyright 2023 Om Rawaley (@omrawaley)
