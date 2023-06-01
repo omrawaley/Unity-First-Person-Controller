@@ -21,7 +21,7 @@ public class FirstPersonController : MonoBehaviour
     [Header("Components")]
     public Rigidbody rb;
     public Camera cam;
-    public Transform sphereCastPos;
+    public Transform groundCheck;
 
     private float horizontalMovement;
     private float verticalMovement;
@@ -92,7 +92,7 @@ public class FirstPersonController : MonoBehaviour
         if(!enableJumping)
             return;
 
-        grounded = Physics.Raycast(sphereCastPos.position, Vector3.down, 0.5f);
+        grounded = Physics.Raycast(groundCheck.position, Vector3.down, 0.5f);
 
         if(Input.GetKey(KeyCode.Space) && grounded)
         {
